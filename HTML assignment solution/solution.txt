@@ -1,0 +1,60 @@
+Ans1.
+Tables in HTML are used to display data in a structured, grid-like format consisting of rows and columns.
+Basic Table Structure
+Tag: <table>
+1. Row Tag: <tr> (table row)
+2. Header Cell Tag: <th> (table header)
+3. Data Cell Tag: <td> (table data)
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 3</td>
+    <td>Data 4</td>
+  </tr>
+  <tr>
+    <td>Data 5</td>
+    <td>Data 6</td>
+  </tr>
+</table>
+
+Ans2.
+1. Audio Element
+The <audio> tag is used to embed sound content in a document.
+2. Video Element
+The <video> tag is used to embed video content in a document.
+3. Source Element
+The <source> tag is used within <audio> and <video> elements to specify multiple media resources
+4. Embed Element
+The <embed> tag is used to embed external content
+5. Object Element
+The <object> tag is used to embed multimedia elements, such as images, audio, video, Java applets, ActiveX, PDF, and Flash.
+
+Ans3.
+In HTML forms, GET and POST are the two most common methods used to send form data to a server
+1. GET Method
+Description: Sends form data as part of the URL.
+<form action="/submit_form" method="get">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  <input type="submit" value="Submit">
+</form>
+
+2. POST Method
+Description: Sends form data in the HTTP request body.
+<form action="/submit_form" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  <input type="submit" value="Submit">
+</form>
+
+Ans4.
+Input types
+1. text
+2. password
+3. email
+4. search
+5. tel
+6. url
